@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/static/js/main.ce296d7c.chunk.js",
-    "main.js.map": "/static/js/main.ce296d7c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d32fa43a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d32fa43a.js.map",
-    "static/js/2.1436e6e9.chunk.js": "/static/js/2.1436e6e9.chunk.js",
-    "static/js/2.1436e6e9.chunk.js.map": "/static/js/2.1436e6e9.chunk.js.map",
-    "static/js/3.a794a699.chunk.js": "/static/js/3.a794a699.chunk.js",
-    "static/js/3.a794a699.chunk.js.map": "/static/js/3.a794a699.chunk.js.map",
+    "main.css": "/static/css/main.0b679b36.chunk.css",
+    "main.js": "/static/js/main.2ffe9d6f.chunk.js",
+    "main.js.map": "/static/js/main.2ffe9d6f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6f5cd31c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6f5cd31c.js.map",
+    "static/js/2.27015484.chunk.js": "/static/js/2.27015484.chunk.js",
+    "static/js/2.27015484.chunk.js.map": "/static/js/2.27015484.chunk.js.map",
+    "static/js/3.7c0a7d41.chunk.js": "/static/js/3.7c0a7d41.chunk.js",
+    "static/js/3.7c0a7d41.chunk.js.map": "/static/js/3.7c0a7d41.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.1436e6e9.chunk.js.LICENSE.txt": "/static/js/2.1436e6e9.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/css/main.0b679b36.chunk.css.map": "/static/css/main.0b679b36.chunk.css.map",
+    "static/js/2.27015484.chunk.js.LICENSE.txt": "/static/js/2.27015484.chunk.js.LICENSE.txt",
+    "static/media/char_maker.10134b05.PNG": "/static/media/char_maker.10134b05.PNG",
+    "static/media/cilantro_chair.6d02e022.jpeg": "/static/media/cilantro_chair.6d02e022.jpeg",
+    "static/media/dnd_arena.342b3e25.PNG": "/static/media/dnd_arena.342b3e25.PNG",
+    "static/media/hangman.2ba39006.PNG": "/static/media/hangman.2ba39006.PNG",
+    "static/media/php_logo.ce219749.png": "/static/media/php_logo.ce219749.png",
+    "static/media/plantr_profile_page.56aea2d3.PNG": "/static/media/plantr_profile_page.56aea2d3.PNG",
+    "static/media/profile_outside.cdab1730.jpeg": "/static/media/profile_outside.cdab1730.jpeg",
+    "static/media/sliding_tile_game.ff5dbd9f.PNG": "/static/media/sliding_tile_game.ff5dbd9f.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.d32fa43a.js",
-    "static/js/2.1436e6e9.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.ce296d7c.chunk.js"
+    "static/js/runtime-main.6f5cd31c.js",
+    "static/js/2.27015484.chunk.js",
+    "static/css/main.0b679b36.chunk.css",
+    "static/js/main.2ffe9d6f.chunk.js"
   ]
 }
