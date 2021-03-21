@@ -168,7 +168,7 @@ color: white;
   margin: auto auto;
   padding: 0;
   box-sizing: border-box;
-  width: 50%;
+  width: 80%;
   float: right;
 }
 .tech-icon{
@@ -213,6 +213,14 @@ footer{
 }
 
 @media only screen and (max-width: 600px){
+  .blurb{
+    width: 100%;
+    display: inline-block
+  }
+.cat-photo{
+  width: 80%;
+ float:none;
+}
 .projects{
   display: inline-block;
   margin: 0 auto;
@@ -220,7 +228,6 @@ footer{
 }
 .project{
   width: 30px;
-  height: 30vh;
   background-size: 300px;
 
 }
