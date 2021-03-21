@@ -1,13 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,800;1,500;1,700&display=swap');
+html{
+  scroll-behavior: smooth;
+}
 body {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+.backup-font{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.welcome{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color: #162039;
+  color:white;
+  height: 100vh;
+}
+.welcome h1{
+  margin-top: 30vh;
+  text-align: left;
+  margin-left: 30%;
+}
+.welcome h2{
+  text-align: left;
+  margin-left: 30%;
+}
+.welcome-btn{
+  height: 45px;
+  font-size: 1.5rem;
+  padding: 5px;
+  color:white; 
+  background-color:#162039;
+  border: 1px solid white;
+  border-radius: 2px;
+  transition: background-color 2npms;
+  transition: border 3s;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.welcome-btn:hover{
+  background-color: #04c2c9;
+  border: 1px solid #04c2c9;
+  border-radius: 2px;
+  cursor: pointer;
 }
+#proj-page{
+  scroll-behavior: smooth;
+}
+.project-page{
+  width: 100%;
+  /* height: 150vh; */
+  margin-top: 100vh;
+  background-color: #162039;
+  color: white;
+}
+.project-page h2, .project-page h3{
+margin-left: 20%;
+}
+.accent{
+  color:#E3776C; 
+}
+.projects{
+  box-sizing: border-box;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  margin: 0 0 0 20%;
+  text-align: center;
+  max-width: 80%;
+}
+.project{
+  height: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  background-size: cover;
+  margin: 30px 10px 30px 10px; 
+  text-align: center;
+  border: 1px solid #E3776C;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  --c: white;
+  --v: hidden;
+
+}
+.project:hover{
+  background-color: #162039;
+  background-image: none;
+  --c: #202E53 ;
+  --v: visible;
+}
+.project a:hover{
+    cursor: pointer;
+}
+.project a.git-logo{
+  all:initial; 
+  margin: 0;
+  /* background-color: white; */
+  height: 20px;
+}
+.project a.git-logo:hover{
+  cursor: pointer;
+}
+.octicon{
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.oction:hover{
+  cursor: pointer;
+}
+.foot-link{
+color: white;
+  text-decoration: none;
+  margin: 5px 20px 5px 20px;
+}
+.footer-icon{
+  height: 25px;
+  width: 25px;
+  fill: white;
+}
+.foot-link:hover, .footer-icon:hover{
+  text-decoration: underline;
+  color: #E3776C;
+}
+
+.project a{
+  display: inherit;
+  transition: height 2s;
+  font-size: 1.5em;
+  padding: 20px 0 20px 0;
+  transition: background-color 2s;
+  margin-top: 40%;
+  background-color: var(--c);
+  visibility: var(--v);
+  color: white;
+  text-decoration: none;
+}
+.project p{
+  display: inherit;
+  padding: 20px 0 20px 0;
+  transition: background-color 2s;
+  margin-top: 15%;
+  background-color: var(--c);
+  visibility: var(--v);
+  color: white;
+}
+.about-page{
+  background-color:#162039;
+  color: white;
+  padding-top: 20vh;
+}
+
+.about-page .about-content{
+  padding: 20px;
+  margin-left: 20%;
+  background-color: #202E53;
+  width: 60%;
+}
+.about-content h2{
+  text-align: center;
+}
+.blurb{
+  width: 50%;
+  display: inline-block
+}
+.cat-photo{
+  border: 3px solid white;
+  margin: auto auto;
+  padding: 0;
+  box-sizing: border-box;
+  width: 50%;
+  float: right;
+}
+.tech-icon{
+  user-select: none;
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+.white-border{
+  border: 1px solid white;
+  border-radius: 2px;
+}
+.tech-wrapper{
+  margin-left:20%;
+  max-width: 60%;
+}
+footer{
+  background-color: #162039;
+  color: white;
+  height: 10vh;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+@media (min-width:1600px) and (orientation:landscape){
+  .projects{
+    max-width: 60%;
+    }
+  }
+@media only screen and (min-width: 601px) and (max-width: 768px){
+  .projects{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1599px){
+  .project-page{
+    /* min-height: 200vh; */
+  }
+}
+
+@media only screen and (max-width: 600px){
+.projects{
+  display: inline-block;
+  margin: 0 auto;
+  min-height: 200vh;
+}
+.project{
+  width: 30px;
+  height: 30vh;
+  background-size: 300px;
+
+}
+.project a{
+  margin-top: 5px;
+}
+.welcome h1, .welcome h2, .projects{
+  margin: 0 0 0 10%;
+}
+.project-page h2, .project-page h3{
+  margin-left: 10%;
+  }
+}
+
