@@ -189,7 +189,7 @@ color: white;
 footer{
   background-color: #162039;
   color: white;
-  height: 10vh;
+  min-height: 10vh;
   padding-top: 20px;
   text-align: center;
   padding-bottom: 20px;
