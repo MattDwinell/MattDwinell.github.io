@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.fc8ef667.chunk.css",
-    "main.js": "/static/js/main.2ffe9d6f.chunk.js",
-    "main.js.map": "/static/js/main.2ffe9d6f.chunk.js.map",
+    "main.js": "/static/js/main.348d6eff.chunk.js",
+    "main.js.map": "/static/js/main.348d6eff.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6f5cd31c.js",
     "runtime-main.js.map": "/static/js/runtime-main.6f5cd31c.js.map",
     "static/js/2.27015484.chunk.js": "/static/js/2.27015484.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/char_maker.10134b05.PNG": "/static/media/char_maker.10134b05.PNG",
     "static/media/cilantro_chair.6d02e022.jpeg": "/static/media/cilantro_chair.6d02e022.jpeg",
     "static/media/dnd_arena.342b3e25.PNG": "/static/media/dnd_arena.342b3e25.PNG",
+    "static/media/frontend_checkers.e61219a3.PNG": "/static/media/frontend_checkers.e61219a3.PNG",
     "static/media/hangman.2ba39006.PNG": "/static/media/hangman.2ba39006.PNG",
     "static/media/php_logo.ce219749.png": "/static/media/php_logo.ce219749.png",
     "static/media/plantr_profile_page.56aea2d3.PNG": "/static/media/plantr_profile_page.56aea2d3.PNG",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.6f5cd31c.js",
     "static/js/2.27015484.chunk.js",
     "static/css/main.fc8ef667.chunk.css",
-    "static/js/main.2ffe9d6f.chunk.js"
+    "static/js/main.348d6eff.chunk.js"
   ]
 }
