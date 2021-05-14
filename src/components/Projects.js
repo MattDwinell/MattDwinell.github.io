@@ -7,10 +7,11 @@ import tileGame from './../images/sliding_tile_game.PNG'
 import plantr from './../images/plantr_profile_page.PNG'
 import checkers from './../images/frontend_checkers.PNG'
 const Projects = () => {
-    const projectList = [{tech:'React', img: checkers, title: 'Checkers', url: 'https://front-end-checkers.herokuapp.com/', repo: 'https://github.com/MattDwinell/checkers'},
-    {tech:'tech: React, Reactrouter, Fetch', img: hangman, title: 'React Hangman', url: 'https://mattdwinell.github.io/react-hang-man', repo: 'https://github.com/MattDwinell/react-hang-man'},
+    const projectList = [{tech:'React, Express, Node, Mysql, Firebase', img: checkers, title: 'Multiplayer Checkers', url: 'http://full-stack-checkers.herokuapp.com/', repo: 'https://github.com/MattDwinell/checkers'},
+
     { tech:'Always a work in progress',img: casualPhoto, title: 'Myself', url: '#about', repo: null},
     {tech:'Sql, Firebase, Node, Express, Materalize', img: dndcharMaker, title: 'DnD Character Creator', url: 'https://dndcharcreator.herokuapp.com/assets/html/index.html', repo: 'https://github.com/MattDwinell/dndcharSQLVersion'},
+    {tech:'tech: React, Reactrouter, Fetch', img: hangman, title: 'React Hangman', url: 'https://mattdwinell.github.io/react-hang-man', repo: 'https://github.com/MattDwinell/react-hang-man'},
     {tech:'Firebase, API Calls, Materalize', img: dndArena, title: 'DnD Arena Game', url: 'https://mattdwinell.github.io/DnDTAFight/', repo: 'https://github.com/MattDwinell/DnDTAFight'}
     ,
     {tech:'jquery, simple algorithms', img: tileGame, title: 'Custom Tile Game', url: 'https://mattdwinell.github.io/word-tile-game/', repo: 'https://github.com/MattDwinell/word-tile-game'}

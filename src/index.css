@@ -237,7 +237,7 @@ footer{
 .welcome h1, .welcome h2, .projects{
   margin: 0 0 0 10%;
 }
-.project-page h2, .project-page h3{
+.project-page h2, .project-page h3, .project-page span{
   margin-left: 10%;
   }
 }
