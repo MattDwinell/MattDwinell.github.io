@@ -155,6 +155,7 @@ color: white;
   margin-left: 20%;
   background-color: #202E53;
   width: 60%;
+  padding-bottom: 10vh;
 }
 .about-content h2{
   text-align: center;
@@ -168,8 +169,14 @@ color: white;
   margin: auto auto;
   padding: 0;
   box-sizing: border-box;
-  width: 50%;
+  max-width: 40%;
   float: right;
+
+
+}
+.cat-photo img{
+  max-height: 20vh;
+  
 }
 .tech-icon{
   user-select: none;
